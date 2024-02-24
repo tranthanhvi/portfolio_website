@@ -44,7 +44,8 @@ const Timeline = () => {
 
   return (
     <Section>
-      <SectionTitle>About Me</SectionTitle>
+      <SectionDivider />
+      <SectionTitle main>About Me</SectionTitle>
       <SectionText>To know more about my background</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -107,7 +108,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

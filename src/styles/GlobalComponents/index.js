@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background:  rgba(42, 54, 59, 1); 
+  background:  #1d1e4e; 
   // linear-gradient(121.57deg, #000000 18.77%, rgba(42, 54, 59, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,7 +61,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(42, 54, 59, 0.7);
+  color: rgba(28, 30, 78, 0.7);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -83,7 +83,7 @@ export const SectionDivider = styled.div`
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
-  background: #3d7a44;
+  background: linear-gradient(90deg, rgba(29,30,78,1) 0%, rgba(61,122,68,1) 100%);
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -168,11 +168,14 @@ export const SecondaryBtn = styled.button`
 export const Button = styled.button`
   background: transparent;
   border-radius: 7px;
-  border: 2px solid #3d7a44;
-  color: #3d7a44;
-  margin: 0 1em;
+  border: 2.5px solid #1d1e4e;
+  color: #1d1e4e;
+  margin: 0 0 1rem 0;
   padding: 0.25em 1em;
   cursor: pointer;
+&:hover {
+  background: rgb(120,225,133, 0.75);
+}
 `
 
 // export const ButtonBack = styled.div`
@@ -276,6 +279,7 @@ export const LinkContainer = styled.div`
   }
 `
 
+
 export const LinkIconImg = styled.div`
   display: flex;  
   height: ${({ large }) => large ? '32px' : '24px'};
@@ -288,3 +292,33 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
+export const GridContainer = styled.section`
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+padding: 3rem;
+place-items: center;
+column-gap: 1rem;
+row-gap: 2rem;
+margin-botton: 4rem;
+
+@media ${(props) => props.theme.breakpoints.sm} {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 4rem;
+}
+`
+export const GridContainerTech = styled.section`
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+padding: 3rem;
+place-items: center;
+column-gap: 1rem;
+row-gap: 2rem;
+@media ${(props) => props.theme.breakpoints.sm} {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-bottom: 0;
+}`

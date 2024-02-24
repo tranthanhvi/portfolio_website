@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'Todo List',
+    title: 'Bookstore',
     description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
       image: '/images/1.png',
       tags: ['React', 'Node', 'Firebase'],
@@ -38,9 +38,61 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2021, text: 'Started my journey in Finland', },
+  { year: 2023, text: 'Graduated from Haaga-Helia UAS', },
+  { year: 2024, text: 'Working as freelance developer, and trying to land my first job', },
+];
+
+export const technologies = [
+  {
+    name: 'HTML',
+    logo: '/images/html.png',
+    id: 0,
+  },
+  {
+    name: 'CSS',
+    logo: '/images/css.png',
+    id: 1,
+  },
+  {
+    name: 'JavaScript',
+    logo: '/images/javascript.png',
+    id: 2,
+  },
+  {
+    name: 'React',
+    logo: '/images/react.png',
+    id: 3,
+  },
+  {
+    name: 'Node',
+    logo: '/images/node.png',
+    id: 4,
+  },
+  {
+    name: 'Java',
+    logo: '/images/java.png',
+    id: 5,
+  },
+  {
+    name: 'Python',
+    logo: '/images/python.png',
+    id: 6,
+  },
+  {
+    name: 'Firebase',
+    logo: '/images/firebase.png',
+    id: 7,
+  },
+  {
+    name: 'PowerBI',
+    logo: '/images/powerbi.png',
+    id: 8,
+  },
+  // {
+  //   name: 'Github',
+  //   logo: '/images/github.png',
+  //   id: 9,
+  // },
+
 ];

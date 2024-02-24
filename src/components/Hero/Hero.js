@@ -11,9 +11,9 @@ const Hero = () => (
         I am Thanh
       </SectionTitle>
       <SectionText>
-        I like to read, love to cook, and ofc LIVE TO CODE! Feel free to reach me to read, cook or code together. 
+        I like to read, love to cook, and ofc CODE TO LIVE!
       </SectionText>
-      <Button onClick={() => window.location = 'https://github.com/tranthanhvi'}>Reach Me</Button>
+      <Button onClick={() => window.location = 'https://github.com/tranthanhvi'}>Reach me</Button>
     </LeftSection>
   </Section >
 );
