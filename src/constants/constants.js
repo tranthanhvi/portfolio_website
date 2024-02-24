@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Bookstore',
     description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
+      image: 'images/1.png',
       tags: ['React', 'Node', 'Firebase'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Finla',
     description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.jpg',
+    image: 'images/2.jpg',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Geritch Restaurant',
     description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.png',
+      image: 'images/3.png',
       tags: ['React', 'JavaScript'],
     source: 'https://tranthanhvi.github.io/restaurant-website/',
     visit: 'https://tranthanhvi.github.io/restaurant-website/',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Unichat',
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
+    image: 'images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -46,47 +46,47 @@ export const TimeLineData = [
 export const technologies = [
   {
     name: 'HTML',
-    logo: '/images/html.png',
+    logo: 'images/html.png',
     id: 0,
   },
   {
     name: 'CSS',
-    logo: '/images/css.png',
+    logo: 'images/css.png',
     id: 1,
   },
   {
     name: 'JavaScript',
-    logo: '/images/javascript.png',
+    logo: 'images/javascript.png',
     id: 2,
   },
   {
     name: 'React',
-    logo: '/images/react.png',
+    logo: 'images/react.png',
     id: 3,
   },
   {
     name: 'Node',
-    logo: '/images/node.png',
+    logo: 'images/node.png',
     id: 4,
   },
   {
     name: 'Java',
-    logo: '/images/java.png',
+    logo: 'images/java.png',
     id: 5,
   },
   {
     name: 'Python',
-    logo: '/images/python.png',
+    logo: 'images/python.png',
     id: 6,
   },
   {
     name: 'Firebase',
-    logo: '/images/firebase.png',
+    logo: 'images/firebase.png',
     id: 7,
   },
   {
     name: 'PowerBI',
-    logo: '/images/powerbi.png',
+    logo: 'images/powerbi.png',
     id: 8,
   },
   // {
