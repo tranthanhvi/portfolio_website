@@ -33,14 +33,20 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 1 / 4 / 2 / 6;
+
   `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
-  display: flex;
+  display: ${(props) => props.hide ? 'none' : 'flex'};
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.md} {
-    display: ${(props) => props.hide ? 'none' : 'flex'};
+    display: ${(props) => props.hide ? 'flex' : 'none'};
+    justify-content: flex-start;
+    align-items: center;
   }
 
 `;
@@ -61,6 +67,12 @@ export const NavLink = styled.a`
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 2rem;
+    display: ${(props) => props.hide ? 'none' : 'flex'}
+  }
+
 `;
 
 /// DropDown Contact
@@ -116,11 +128,25 @@ export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: #1d1e4e;
 border-radius: 50px;
+display:flex;
+justtify-content: center;
+align-items: center;
+
   padding: 8px;
 &:hover {
     background-color: #e0f3e1;
     transform: scale(1.2);
     cursor: pointer;
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+      transform: scale(1.05);
+      transition: 0.3s ease;
+    }
     
+    @media ${(props) => props.theme.breakpoints.md} {
+      transform: scale(1.05);
+      transition: 0.3s ease;
+    }
+
   }
 `

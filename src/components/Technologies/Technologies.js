@@ -5,7 +5,7 @@ import { HeaderThree} from '../Projects/ProjectsStyles';
 import { TechCard, TechCardLogo, TechCardContent, Logo } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id='tech'>
+  <Section id="tech">
     <SectionDivider />
     <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
@@ -16,7 +16,6 @@ const Technologies = () =>  (
         <TechCard key={id}>
           <TechCardLogo>
             <Logo src={logo} alt='logo'/>
-            {/* <svg xmlns={logo}  style={{width: '50px', height: '50px'}} ><path d={d}></path></svg> */}
           </TechCardLogo>
           <TechCardContent>
             <HeaderThree>{name}</HeaderThree>

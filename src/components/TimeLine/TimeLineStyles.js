@@ -15,7 +15,7 @@ export const CarouselContainer = styled.ul`
     margin-left: 0px;
   }
 
-  margin-bottom: 80px;
+  margin-bottom: 2rem;
 
   //remove scrollbar
   scrollbar-width: none;  
@@ -29,7 +29,7 @@ export const CarouselContainer = styled.ul`
     scroll-snap-type: x mandatory;
     touch-action: pan-x;
     justify-content: initial;
-    margin-bottom: 8px;
+    margin-bottom: 1rem;
   }
 `
 export const CarouselMobileScrollNode = styled.div`

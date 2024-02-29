@@ -14,7 +14,7 @@ export const Section = styled.section`
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: ${(props) => props.row ? "row" : "column" };;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -22,6 +22,7 @@ export const Section = styled.section`
 
     width: calc(100vw - 32px);
     flex-direction: column;
+    justify-content: flex-start;
     order: 2;
 
  
@@ -303,7 +304,7 @@ padding: 3rem;
 place-items: center;
 column-gap: 1rem;
 row-gap: 2rem;
-margin-botton: 4rem;
+margin-bottom: 4rem;
 
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;

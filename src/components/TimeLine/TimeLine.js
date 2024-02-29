@@ -43,10 +43,10 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section>
+    <Section id="about">
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
-      <SectionText>To know more about my background</SectionText>
+      {/* <SectionText>To know more about my background</SectionText> */}
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
