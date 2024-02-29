@@ -13,7 +13,8 @@ export const Section = styled.section`
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
-    flex-direction: column;
+    flex-direction: ${(props) => props.row ? "row" : "column" };;
+    justify-content: flex-end;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -21,6 +22,9 @@ export const Section = styled.section`
 
     width: calc(100vw - 32px);
     flex-direction: column;
+    order: 2;
+
+ 
   }
 `
 
