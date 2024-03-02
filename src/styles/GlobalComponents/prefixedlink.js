@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const PrefixedLink = ({ href, as = href, children, ...props }) => (
+export const PrefixedLink = ({ href, as = href, children, ...props }) => (
   <Link
     href={href}
     as={`${process.env.pathPrefix}${as}`}
@@ -10,4 +10,3 @@ const PrefixedLink = ({ href, as = href, children, ...props }) => (
   </Link>
 );
 
-export default PrefixedLink;

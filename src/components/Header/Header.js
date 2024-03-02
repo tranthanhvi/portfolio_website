@@ -2,34 +2,34 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-import { PrefixedLink } from '../../styles/GlobalComponents';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+ 
+import { PrefixedLink } from '../../styles/GlobalComponents/prefixedlink';
 
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/">
+      <PrefixedLink href="/">
         <a style={{ display: "flex", alignItems: "center", color: "#1d1e4e", marginBottom: '20px', fontWeight: '600' }}>
           <Span>THANH</Span>
         </a>
-      </Link>
+      </PrefixedLink>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <PrefixedLink href="#projects">
           <NavLink>Projects</NavLink>
-        </Link>
+        </PrefixedLink>
       </li>
       <li>
-        <Link href="#tech">
+        <PrefixedLink href="#tech">
           <NavLink>Technologies</NavLink>
-        </Link>
+        </PrefixedLink>
       </li>
       <li>
-        <Link href="#about">
+        <PrefixedLink href="#about">
           <NavLink hide>About</NavLink>
-        </Link>
+        </PrefixedLink>
       </li>
     </Div2>
     <Div3>
