@@ -9,7 +9,7 @@ import { PrefixedLink } from '../../styles/GlobalComponents/prefixedlink';
 const Header = () =>  (
   <Container>
     <Div1>
-      <PrefixedLink href="/">
+      <PrefixedLink href="https://tranthanhvi.github.io/portfolio_website/">
         <a style={{ display: "flex", alignItems: "center", color: "#1d1e4e", marginBottom: '20px', fontWeight: '600' }}>
           <Span>THANH</Span>
         </a>
@@ -17,7 +17,7 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <PrefixedLink href="#projects">
+        <PrefixedLink href="https://tranthanhvi.github.io/portfolio_website#projects">
           <NavLink>Projects</NavLink>
         </PrefixedLink>
       </li>

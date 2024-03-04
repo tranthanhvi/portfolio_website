@@ -10,30 +10,30 @@ const Footer = () => {
     <FooterWrapper id='contact'>
       <SectionTitle>Contact</SectionTitle>
       <LinkList>
-        <LinkColumn>
+        {/* <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href='tel:358-123-456-789'>+358 123 456 789</LinkItem>
-        </LinkColumn>
+        </LinkColumn> */}
         <LinkColumn>
           <LinkTitle>E-mail</LinkTitle>
           <LinkItem href='mailto:tranxanhvi@gmail.com'>tranxanhvi@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>
+        {/* <CompanyContainer>
           <Slogan>Contact me!</Slogan>
-        </CompanyContainer>
+        </CompanyContainer> */}
         <SocialContainer>
-        <SocialIcons href='https://github.com/tranthanhvi'>
-          <AiFillGithub size='3rem' />
-        </SocialIcons>
-        <SocialIcons href='https://www.linkedin.com/in/tran-thanh-2900b31a0/'>
-          <AiFillLinkedin size='3rem' />
-        </SocialIcons>
-        <SocialIcons href='https://www.instagram.com/xanhvitran/'>
-          <AiFillInstagram size='3rem' />
-        </SocialIcons>
-        </SocialContainer>
+          <SocialIcons href='https://github.com/tranthanhvi'>
+            <AiFillGithub size='3rem' />
+          </SocialIcons>
+          <SocialIcons href='https://www.linkedin.com/in/tran-thanh-2900b31a0/'>
+            <AiFillLinkedin size='3rem' />
+          </SocialIcons>
+          <SocialIcons href='https://www.instagram.com/xanhvitran/'>
+            <AiFillInstagram size='3rem' />
+          </SocialIcons>
+          </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );

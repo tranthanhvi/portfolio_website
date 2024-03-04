@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Unichat',
+    title: 'Cooking Recipes',
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: 'images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    image: 'images/meofood.png',
+    tags: ['Tailwind'],
+    source: 'https://github.com/tranthanhvi/meowfood/tree/master',
+    visit: 'https://tranthanhvi.github.io/meowfood/',
     id: 3,
   },
 ];

@@ -29,7 +29,13 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #1d1e4e;
   padding: .5rem 0;
+
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 1.5rem;
+  }  
+
 `;
 
 export const Hr = styled.hr`
