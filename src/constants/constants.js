@@ -29,10 +29,10 @@ export const projects = [
   {
     title: 'Cooking Recipes',
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: 'images/4.png',
-    tags: ['Tailwind'],
-    source: 'https://github.com/tranthanhvi/meowfood/tree/master',
-    visit: 'https://tranthanhvi.github.io/meowfood/',
+    image: '/images/4.jpg',
+    tags: ['React', 'ChatEngine', 'Firebase'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
     id: 3,
   },
 ];
@@ -46,47 +46,47 @@ export const TimeLineData = [
 export const technologies = [
   {
     name: 'HTML',
-    logo: 'images/html.svg',
+    logo: '/images/html.png',
     id: 0,
   },
   {
     name: 'CSS',
-    logo: 'images/css.svg',
+    logo: '/images/css.png',
     id: 1,
   },
   {
     name: 'JavaScript',
-    logo: 'images/javascript.svg',
+    logo: '/images/javascript.png',
     id: 2,
   },
   {
     name: 'React',
-    logo: 'images/react.svg',
+    logo: '/images/react.png',
     id: 3,
   },
   {
-    name: 'Tailwind',
-    logo: 'images/tailwindcss.svg',
+    name: 'Node',
+    logo: '/images/node.png',
     id: 4,
   },
   {
-    name: 'Node',
-    logo: 'images/node.svg',
+    name: 'Java',
+    logo: '/images/java.png',
     id: 5,
   },
   {
-    name: 'Java',
-    logo: 'images/java.svg',
+    name: 'Python',
+    logo: '/images/python.png',
     id: 6,
   },
   {
-    name: 'Python',
-    logo: 'images/python.svg',
+    name: 'Firebase',
+    logo: '/images/firebase.png',
     id: 7,
   },
   {
-    name: 'Pandas',
-    logo: 'images/pandas.svg',
+    name: 'PowerBI',
+    logo: '/images/powerbi.png',
     id: 8,
   },
   {
