@@ -4,7 +4,8 @@ export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
-  margin: 0 auto;
+  
+  margin: ${(props) => props.first ? "12rem auto" : "8rem auto" };
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
@@ -13,17 +14,19 @@ export const Section = styled.section`
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
-    flex-direction: ${(props) => props.row ? "row" : "column" };;
+    flex-direction: ${(props) => props.row ? "row" : "column" };
     justify-content: flex-start;
+    margin: 0 auto;
+
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
 
     width: calc(100vw - 32px);
-    flex-direction: column;
+    flex-direction: ${(props) => props.first ? "column-reverse" : "column" };
     justify-content: flex-start;
-    order: 2;
+    margin: 0 auto;
 
  
   }
@@ -170,7 +173,22 @@ export const SecondaryBtn = styled.button`
   }
 `
 
-export const Button = styled.button`
+// export const Button = styled.button`
+//   background: transparent;
+//   border-radius: 7px;
+//   border: 2.5px solid #1d1e4e;
+//   color: #1d1e4e;
+//   margin: 0 0 1rem 0;
+//   padding: 0.25em 1em;
+//   cursor: pointer;
+// &:hover {
+//   background: rgb(120,225,133, 0.75);
+// }
+// `
+
+export const Button = styled.a`
+  display: flex;
+  justify-content:center;
   background: transparent;
   border-radius: 7px;
   border: 2.5px solid #1d1e4e;
@@ -182,6 +200,7 @@ export const Button = styled.button`
   background: rgb(120,225,133, 0.75);
 }
 `
+
 
 // export const ButtonBack = styled.div`
 //   width: ${({ alt }) => alt ? '150px' : '262px'};

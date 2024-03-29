@@ -10,10 +10,7 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
-      <Section row nopadding>
-        <Hero />
-        <ProfileImage />
-      </Section>
+      <Hero />
       <Timeline />
       <Technologies />
       <Projects />

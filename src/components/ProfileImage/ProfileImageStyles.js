@@ -9,7 +9,6 @@ export const ProfileImgBox = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     display: flex;
-    order: 1;
     margin: 5rem auto;
   }
   @media ${(props) => props.theme.breakpoints.md} {
@@ -22,17 +21,18 @@ export const ProfileImgBox = styled.div`
 
 
 export const ProfileImg = styled.img`
-  padding: 2rem;
-  max-width: 300px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding-left: 4rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
-    margin: 2rem auto;
+    padding: 0;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 180px;
     display: flex;
-    margin: 0 auto;
+
   }
 `;
 

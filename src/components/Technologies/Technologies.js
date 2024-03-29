@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <SectionDivider />
     <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
-      I've work with a range of technologies in the web development world. 
+      I've worked with a range of technologies in the web development world. 
     </SectionText>
     <GridContainer>
       {technologies.map(( {id, logo, name}) => (
