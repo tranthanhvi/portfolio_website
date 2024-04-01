@@ -11,7 +11,7 @@ const Technologies = () =>  (
     <SectionText>
       I've worked with a range of technologies in the web development world. 
     </SectionText>
-    <GridContainer>
+    <GridContainer small>
       {technologies.map(( {id, logo, name}) => (
         <TechCard key={id}>
           <TechCardLogo>

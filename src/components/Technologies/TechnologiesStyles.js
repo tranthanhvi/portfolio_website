@@ -29,7 +29,6 @@ export const MainImage = styled.img`
 
 export const TechCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   width: 400px;
   display: flex;
   justtify-content: flex-start;
@@ -41,7 +40,7 @@ export const TechCard = styled.div`
 
 export const TechCardLogo = styled.div`
   z-index: 20;
-  padding: 0 2rem;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +56,7 @@ export const TechCardContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0;
   display: flex;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -74,7 +73,7 @@ export const Logo = styled.img`
   padding: 1rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    max-width: 75px;
+    max-width: 55px;
     padding: 0;
 
   }
