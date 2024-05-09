@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
+  height: auto;
   object-fit: cover;
   overflow: hidden;
   border-radius: 10px 10px 0 0; 
@@ -13,8 +13,13 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+    width: 80%;
+    height: 80%;
   }
 `;
 
@@ -28,7 +33,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #1d1e4e;
-  padding: .5rem 0;
+  padding: 1.5rem 0;
 
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 
